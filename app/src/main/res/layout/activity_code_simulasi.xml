@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".CodeSimulasi">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/bg_white"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/input_code_simulasi"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/bg_spinner"
+            android:fontFamily="@font/mlight"
+            android:gravity="center_horizontal"
+            android:hint="Masukan Code Simulasi"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/btn_cari"
+            android:src="@drawable/paper"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_white"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="Processore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_proc"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="Motherboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_mobo"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="Ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_ram"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="VGA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_vga"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="PSU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_psu"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="24dp"
+            android:text="Storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="----"
+            android:id="@+id/read_storage"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/mregular"
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_back_code"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_white"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_lanjut"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/bg_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_code"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/mregular"
+            android:text="Ganti Komponen"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

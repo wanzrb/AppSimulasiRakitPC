@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590018633647",
+    "firebase_url": "https://prak-pbo-default-rtdb.firebaseio.com",
+    "project_id": "prak-pbo",
+    "storage_bucket": "prak-pbo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590018633647:android:5debdb101532131ced195a",
+        "android_client_info": {
+          "package_name": "com.kelompok7.prakpbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590018633647-h74an9i42isg8vvtapmirscaag99ciat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompok7.prakpbo",
+            "certificate_hash": "f17e4aee508a347876756ad267bac62a40b8e951"
+          }
+        },
+        {
+          "client_id": "590018633647-1bmcr0hb2u7crheqq04b5i43g24iuvb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA14_lS21Aj5wW09rCD8gSQD5Pa2j7HLMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590018633647-1bmcr0hb2u7crheqq04b5i43g24iuvb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
